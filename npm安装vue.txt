@@ -1,0 +1,29 @@
+NPM 方法
+由于 npm 安装速度慢，本教程使用了淘宝的镜像及其命令 cnpm，安装使用介绍参照：使用淘宝 NPM 镜像。
+npm 版本需要大于 3.0，如果低于此版本需要升级它：
+# 查看版本
+$ npm -v
+2.3.0
+
+#升级 npm
+cnpm install npm -g
+在用 Vue.js 构建大型应用时推荐使用 NPM 安装：
+# 最新稳定版
+$ cnpm install vue
+
+命令行工具
+Vue.js 提供一个官方命令行工具，可用于快速搭建大型单页应用。
+# 全局安装 vue-cli
+$ cnpm install --global vue-cli
+# 创建一个基于 webpack 模板的新项目
+$ vue init webpack my-project
+# 这里需要进行一些配置，默认回车即可
+T
+进入项目，安装并运行： 
+$ cd my-project
+$ cnpm install
+$ cnpm run dev
+ DONE  Compiled successfully in 4388ms
+
+> Listening at http://localhost:8080
+
