@@ -1,1 +1,1 @@
-通过npm安装vue
+锘块�氳繃npm瀹夎vue
